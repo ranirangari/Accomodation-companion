@@ -84,12 +84,12 @@ const Signin = () => {
               >
                 Login{" "}
               </button>
-              <div className="mt-2 grid grid-cols-3 items-center text-gray-400">
+              {/* <div className="mt-2 grid grid-cols-3 items-center text-gray-400">
                 <hr className="border-gray-400" />
                 <p className="text-center">OR</p>
                 <hr className="border-gray-400" />
-              </div>
-              <p className="p-2">Signin with social platforms</p>
+              </div> */}
+              {/* <p className="p-2">Signin with social platforms</p> */}
               {/* Signin with Google{" "} */}
               {/* {flag ? (
                   <h2>Logged in </h2>
@@ -116,7 +116,7 @@ const Signin = () => {
                 }}
               /> */}
             </form>
-
+{/* 
             <div className="flex p-2 justify-center px-2 space-x-2 rounded-xl">
               <SocialIcon url="https://www.google.com/" />
               <SocialIcon url="https://www.facebook.com/" />
@@ -124,7 +124,7 @@ const Signin = () => {
              
 
               
-            </div>
+            </div> */}
             <Link
               className="mt-10 text-xs border-b border-gray-400 py-4 hover:text-violet-900 transition font-semibold"
               to={`/forgot-password`}
