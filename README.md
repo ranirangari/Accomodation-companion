@@ -34,3 +34,14 @@ Accommodation Companion is a web application used to find rooms to the users as 
 
 •	Clone this repository and the backend repository from [here](https://github.com/ranirangari/accomodation-companion-server)
 
+• Open CMD on your computer and change the directory to the place where you cloned the front-end repository.
+
+• Run the command npm install to install all the necessary packages.
+
+• Now run the command npm start to run the frontend on your localhost.
+
+• Follow the same procedure for the backend repository , to run the server on your localhost.
+
+• Run the app live on localhost:3000
+
+
