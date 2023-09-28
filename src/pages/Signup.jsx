@@ -1,9 +1,9 @@
 import React, { useRef, useState } from "react";
 // import imglogo from "../assets/img/login4.jpg";
-import imglogo from "../assets/img/login3.jpg"
+import imglogo from "../assets/img/login3.jpg";
 import { Link } from "react-router-dom";
 import Userservice from "../services/UserService";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 
 const Signup = () => {
   const [formData, setFormData] = useState({
@@ -22,52 +22,40 @@ const Signup = () => {
 
   const form = useRef();
 
-    
-
-
-
-
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs
-    .sendForm(
-      "service_06clsi1",
-      "template_m4a2sk4",
-      form.current,
-      "3-GJ3c9jlTFFwtOen"
-    )
-    .then(
-      (result)=>{
-        console.log(result.text);
-        console.log("message sent");
-        // alert("Registration Successful");
-        alert("Please verify your email for login ");
-      },
-      (error)=>{
-        console.log(error.text);
-      }
-    )
-
-
-
-
-
+    // emailjs
+    //   .sendForm(
+    //     "service_06clsi1",
+    //     "template_m4a2sk4",
+    //     form.current,
+    //     "3-GJ3c9jlTFFwtOen"
+    //   )
+    //   .then(
+    //     (result) => {
+    //       console.log(result.text);
+    //       console.log("message sent");
+    //       alert("Registration Successful");
+    //       // alert("Please verify your email for login ");
+    //     },
+    //     (error) => {
+    //       console.log(error.text);
+    //     }
+    //   );
 
     console.log("Form data:", formData);
-
-    
-
 
     // You can add form submission logic here
     Userservice.addStudent(formData).then((res) => {
       const f = true;
       if (res.data === f) {
         // alert("Please verify your email for login ");
-        // window.location.href="/home/login"
+        alert("Registration Successfull...Please Login");
+        // window.location.href="/"
       } else {
         alert("Registration Failed");
-        // window.location.href="/home/signup"
+        window.location.href="/home/signup"
       }
     });
   };
@@ -81,9 +69,11 @@ const Signup = () => {
           <div className="sm:w-1/2 px-16">
             <h2 className="font-bold text-2xl text-violet-900">Sign Up</h2>
             <p className="text-sm mt-4">Create your account with us! </p>
-            <form className="flex flex-col gap-4"  ref={form} 
-              
-            onSubmit={handleSubmit}>
+            <form
+              className="flex flex-col gap-4"
+              ref={form}
+              onSubmit={handleSubmit}
+            >
               <input
                 className="p-2 mt-8 rounded-xl border"
                 type="text"
@@ -158,8 +148,6 @@ const Signup = () => {
 };
 
 export default Signup;
-
-
 
 //ankitnagrale2912@gmail.com
 //bachhav.darshan@gmail.com
