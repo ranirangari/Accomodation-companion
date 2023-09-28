@@ -32,5 +32,5 @@ TOOLS USED
 
 INSTALLATION
 
-•	Clone this repository and the backend repository from here. 
+•	Clone this repository and the backend repository from "[[here](https://github.com/ranirangari/accomodation-companion-server)https://github.com/ranirangari/accomodation-companion-server]". 
 
