@@ -38,10 +38,10 @@ Accommodation Companion is a web application used to find rooms to the users as 
 
 • Run the command npm install to install all the necessary packages.
 
-• Now run the command npm start to run the frontend on your localhost.
+• Now run the command **npm start** to run the frontend on your localhost.
 
 • Follow the same procedure for the backend repository , to run the server on your localhost.
 
-• Run the app live on localhost:3000
+• Run the app live on **localhost:3000**
 
 
