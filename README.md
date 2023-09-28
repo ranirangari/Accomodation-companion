@@ -1,7 +1,7 @@
 
 Accommodation Companion is a web application used to find rooms to the users as per their needs.
 
-FEATURES
+**FEATURES**
 
 •	Regular Username/Password authentication.
 
@@ -15,7 +15,7 @@ FEATURES
 
 •	Responsiveness support for all devices.
 
-TOOLS USED
+**TOOLS USED**
 
 •	ReactJS: Front-end Javascript framework.
 
@@ -30,7 +30,7 @@ TOOLS USED
 •	Vercel : Deploying the web application on vercel.
 
 
-INSTALLATION
+**INSTALLATION**
 
 •	Clone this repository and the backend repository from [here](https://github.com/ranirangari/accomodation-companion-server)
 
