@@ -7,7 +7,7 @@ Accommodation Companion is a web application used to find rooms to the users as 
 
 •	Stores user information in the MySQL database.
 
-•	Sort rooms by city, property type and prices.
+•	Filter rooms by city, property type and prices.
 
 •	Stores authentication details like token information in cookies.
 
