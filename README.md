@@ -11,8 +11,6 @@ Accommodation Companion is a web application used to find rooms to the users as 
 
 •	Stores authentication details like token information in cookies.
 
-•	Payment service using Stripe's API to book rooms.
-
 •	Responsiveness support for all devices.
 
 **TOOLS USED**
