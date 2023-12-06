@@ -25,10 +25,6 @@ Accommodation Companion is a web application used to find rooms to the users as 
 
 •	MySQL: Stores product and user information.
 
-•	Stripe: Payment service API to handle user payment requests.
-
-•	Vercel : Deploying the web application on vercel.
-
 
 **INSTALLATION**
 
